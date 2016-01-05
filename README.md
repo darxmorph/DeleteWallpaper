@@ -12,10 +12,12 @@ You can get the latest binary from [Releases](https://github.com/darxmorph/Delet
 # Use
 To delete your current wallpaper, right-click your desktop and click `Delete current desktop wallpaper`
 
+By default, it will move the file to the Recycle Bin. See below how to change the program's behaviour.
+
 # Uninstall
 You can uninstall it from Control Panel -> Uninstall a program -> DeleteWallpaper -> Click Uninstall
 
-# Customizing
+# Customize
 ## The program folder
 The program is located in %appdata%\DesktopWallpaper
 
@@ -46,8 +48,8 @@ Const action = 1
 Specify the action to perform on file. Valid options are:
 
 * 0 = DeleteShell [EXPERIMENTAL/NOT RECOMMENDED]: Delete file using Win32 shell. Will trash or remove depending on your Windows settings (right click Recycle Bin, properties to find out)
-* 1 = Trash: Will send file to Recycle bin using VB/.NET's FileSystem.DeleteFile()
-* 2 = DeleteIO: Will PERMANENTLY erase file using C#/.NET's File.Delete()
+* 1 = Trash: Will send file to Recycle bin using VB/.NET's `FileSystem.DeleteFile()`
+* 2 = DeleteIO: Will PERMANENTLY erase file using C#/.NET's `File.Delete()`
 * 3 = Move: Will move file to the path specified by whereToMove. Path must exist.
 
 ```
