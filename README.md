@@ -19,9 +19,9 @@ You can uninstall it from Control Panel -> Uninstall a program -> DeleteWallpape
 
 # Customize
 ## The program folder
-The program is located in %appdata%\DesktopWallpaper
+The program is located in %appdata%\DeleteWallpaper
 
-To access it, just open an Explorer window and type in the path: %appdata%\DesktopWallpaper
+To access it, just open an Explorer window and type in the path: %appdata%\DeleteWallpaper
 
 ## delwp.vbs
 This will just launch win7.vbs if OS is Windows 7 or win8.vbs if OS is Windows 8 / 8.1 / 10
