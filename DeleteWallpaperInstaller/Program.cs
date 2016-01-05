@@ -51,7 +51,7 @@ namespace DeleteWallpaperInstaller
             RegistryKey uninstall = Registry.CurrentUser.CreateSubKey(@"Software\Microsoft\Windows\CurrentVersion\Uninstall\" + pName);
             uninstall.SetValue("DisplayName", pName, RegistryValueKind.String);
             uninstall.SetValue("DisplayVersion", "1.0.0.0", RegistryValueKind.String);
-            uninstall.SetValue("DisplayIcon", "imageres.dll, 108", RegistryValueKind.String);
+            uninstall.SetValue("DisplayIcon", "imageres.dll,67", RegistryValueKind.String);
             uninstall.SetValue("UninstallString", Path.Combine(pFolder, "uninstall.exe"), RegistryValueKind.String);
             uninstall.SetValue("EstimatedSize", 40, RegistryValueKind.DWord);
             uninstall.SetValue("NoModify", 1, RegistryValueKind.DWord);
