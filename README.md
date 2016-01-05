@@ -9,7 +9,7 @@ Allows you to easily delete/trash/move your current wallpaper image
 # Install
 You can get the latest binary from [Releases](https://github.com/darxmorph/DeleteWallpaper/releases)
 
-If you're running Windows 7, you might also need the [.NET Framework 4.5](https://www.microsoft.com/es-es/download/details.aspx?id=30653)
+If you're running Windows 7, you might also need the [.NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
 
 In Windows 8 / 8.1 / 10 it should be preinstalled
 
