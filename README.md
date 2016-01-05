@@ -35,6 +35,7 @@ You shouldn't need to edit this
 
 ## win8.vbs
 This will get the current wallpaper path on Windows 8 / 8.1 / 10 and call hackme.vbs with the wallpaper path
+
 You shouldn't need to edit this
 
 ## hackme.vbs
